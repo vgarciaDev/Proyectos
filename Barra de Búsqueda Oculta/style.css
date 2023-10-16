@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-color: rgb(102, 102, 102);
+}
+
+.busqueda{
+    display: flex;
+}
+
+#campo{
+    background-color: #fff;
+    height: 3rem;
+    width: 300px;
+    border-radius: 30px;
+    border: none;
+    display: none;
+    padding: 15px;
+    font-size: larger;
+}
+#campo.activo{
+    display: block;
+}
+
+#campo:focus{
+    outline: none;
+}
+
+.boton{
+    position: relative;
+    left: -50px;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
