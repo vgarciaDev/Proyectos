@@ -29,6 +29,7 @@ body{
     align-items: center;
     justify-content: center;
     border: 5px solid rgb(74, 204, 161);
+    transition: 0.8s ease;
 }
 
 .circulo{
@@ -40,6 +41,7 @@ body{
     align-items: center;
     justify-content: center;
     border: 5px solid rgb(194, 194, 194);
+    transition: 0.8s ease;
 }
 
 .progreso{
@@ -51,6 +53,7 @@ body{
     top: 50%;
     left: 8%;
     z-index: -1;
+    transition: 0.8s ease;
 }
 
 .progreso-relleno{
@@ -63,6 +66,7 @@ body{
     left: 0%;
     z-index: -1;
     opacity: 1;
+    transition: 0.8s ease;
 }
 
 .boton-next{
